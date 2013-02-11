@@ -80,10 +80,10 @@ public class SeaBattle {
 
         for (int boatCounter = 0; boatCounter < (BATTLESHIP_COUNT + CRUISER_COUNT + DESTROYER_COUNT + SUBMARINE_COUNT); boatCounter++){
             // Checking for occupation of the cell
+            currentCoordinates = generateCoordinates();
             while(!makeBoatLegitimacyCheck(playerBoats[boatCounter], currentCoordinates, field)){
                 currentCoordinates = generateCoordinates();
             }
-
             for (int counter = 0; counter < playerBoats[boatCounter].get_length(); counter++){
                 field.setCellOfField(playerBoats[boatCounter], currentCoordinates);
                 if (playerBoats[boatCounter].get_alignment()){
