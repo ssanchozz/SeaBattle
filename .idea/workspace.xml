@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22b2d4d9-58c8-43eb-bb2f-ee9d7e10473f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_logic/SeaBattle.java" afterPath="$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_logic/SeaBattle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_graphics/SwingCell.java" afterPath="$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_graphics/SwingCell.java" />
     </list>
     <ignored path="SeaBattle.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="22b2d4d9-58c8-43eb-bb2f-ee9d7e10473f" time="1360605131371" ignored="false" />
     <file path="/SeaBattle.java" changelist="22b2d4d9-58c8-43eb-bb2f-ee9d7e10473f" time="1360610507141" ignored="false" />
+    <file path="/SwingCell.java" changelist="22b2d4d9-58c8-43eb-bb2f-ee9d7e10473f" time="1360612091109" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,10 +97,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SeaBattle.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SeaBattle.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_logic/SeaBattle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="242" column="50" selection-start="9624" selection-end="9624" vertical-scroll-proportion="0.7419355">
+            <state line="130" column="0" selection-start="4364" selection-end="4364" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SwingField.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_graphics/SwingField.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="13" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SwingCell.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_graphics/SwingCell.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="49" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.29130965">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SwingJFrame.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_graphics/SwingJFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="13" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -144,6 +170,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_logic/SeaBattle.java" />
+        <option value="$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_graphics/SwingCell.java" />
       </list>
     </option>
   </component>
@@ -417,8 +444,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="1" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -434,7 +461,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.67141163" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32858837" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32858837" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -525,7 +552,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_logic/SeaBattle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="242" column="50" selection-start="9624" selection-end="9624" vertical-scroll-proportion="0.7419355">
+        <state line="130" column="0" selection-start="4364" selection-end="4364" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_graphics/SwingJFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_graphics/SwingField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_graphics/SwingCell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="49" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.29130965">
           <folding />
         </state>
       </provider>

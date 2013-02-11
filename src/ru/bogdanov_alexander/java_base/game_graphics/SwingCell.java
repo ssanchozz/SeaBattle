@@ -26,14 +26,19 @@ public class SwingCell extends JComponent implements MouseListener {
     }
 
     public void paintGradientCell (Graphics2D g) {
-        GradientPaint paint = new GradientPaint(0, 0, Color.WHITE, CELL_WIDTH, CELL_HEIGHT, Color.CYAN, true);
+        GradientPaint paint;
+        if (isSelected){
+            paint = new GradientPaint(0, 0, Color.WHITE, CELL_WIDTH, CELL_HEIGHT, Color.RED, true);
+        }  else {
+            paint = new GradientPaint(0, 0, Color.WHITE, CELL_WIDTH, CELL_HEIGHT, Color.CYAN, true);
+        }
         g.setPaint(paint);
         g.fillRoundRect(0, 0, CELL_WIDTH, CELL_HEIGHT, CELL_ARC_WIDTH, CELL_ARC_HEIGHT);
         g.setColor(Color.lightGray);
         g.drawRoundRect(0, 0, CELL_WIDTH, CELL_HEIGHT, CELL_ARC_WIDTH, CELL_ARC_HEIGHT);
         }
 
-        public void mouseEntered(MouseEvent e) {
+    public void mouseEntered(MouseEvent e) {
         System.out.println("mouseEntered");
         isSelected = true;
         repaint();
