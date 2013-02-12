@@ -7,9 +7,15 @@ import java.awt.event.ActionListener;
 import ru.bogdanov_alexander.java_base.game_logic.*;
 
 public class SwingJFrame extends JFrame {
-    public SwingJFrame(Field field) {
+
+    public static final int X_BACK_PANE_INDENT = 10;
+    public static final int Y_BACK_PANE_INDENT = 10;
+    public static final int BETWEEN_FIELDS_SPACING = 30;
+
+    public SwingJFrame(Field playerField, Field computerField) {
         super("My pane");
-        this.setSize(800, 600);
+        this.setSize(2*SwingField.FIELD_WIDTH + 2*X_BACK_PANE_INDENT + BETWEEN_FIELDS_SPACING + 16,
+                SwingField.FIELD_HEIGHT + 2*Y_BACK_PANE_INDENT + SwingField.FIELD_BOARDER*6);
         this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
         JMenuBar menuBar = new JMenuBar();
@@ -40,29 +46,45 @@ public class SwingJFrame extends JFrame {
         this.setLayout(null);
         this.setLocationRelativeTo(null);
 
-        /*SwingField friendField = new SwingField();
-        friendField.setLocation(10, 10);
-        this.add(friendField);*/
+        SwingCell[][] arrayOfPlayerCells = new SwingCell[10][10];
+        generateFieldOfCells(arrayOfPlayerCells, playerField,
+                X_BACK_PANE_INDENT + SwingField.INDENT_OF_LABLE,
+                Y_BACK_PANE_INDENT + SwingField.INDENT_OF_LABLE);
 
-        SwingCell[][] arrayOfSwingCells = new SwingCell[10][10];
-        generateFieldOfCells(arrayOfSwingCells, field);
+        SwingCell[][] arrayOfEnemyCells = new SwingCell[10][10];
+        generateFieldOfCells(arrayOfEnemyCells, computerField,
+                SwingField.FIELD_WIDTH + X_BACK_PANE_INDENT + BETWEEN_FIELDS_SPACING + SwingField.INDENT_OF_LABLE,
+                Y_BACK_PANE_INDENT + SwingField.INDENT_OF_LABLE);
+
+        SwingField friendField = new SwingField();
+        friendField.setLocation(X_BACK_PANE_INDENT, Y_BACK_PANE_INDENT);
+        this.add(friendField);
+
+        SwingField enemyField = new SwingField();
+        enemyField.setLocation(SwingField.FIELD_WIDTH + X_BACK_PANE_INDENT + BETWEEN_FIELDS_SPACING, Y_BACK_PANE_INDENT);
+        this.add(enemyField);
+
     }
-    public void generateFieldOfCells(SwingCell[][] arrayOfSwingCells, Field field) {
-        int xIndent = 10;
-        int yIndent = 10;
+    public void generateFieldOfCells(SwingCell[][] arrayOfSwingCells, Field field, int xIndent, int yIndent) {
+        String whoseField;
+
         for (int cellCountY = 0; cellCountY < Field.MAP_HEIGHT; cellCountY++) {
             for (int cellCountX = 0; cellCountX < Field.MAP_WIDTH; cellCountX++) {
+                if (field.getWhoseField().equals("player"))
+                    whoseField = "player";
+                else
+                    whoseField = "computer";
                 if (field.getCellsOfField()[cellCountX][cellCountY].isBoatIsSet()) {
-                    arrayOfSwingCells[cellCountX][cellCountY] = new SwingCell(true);
+                    arrayOfSwingCells[cellCountX][cellCountY] = new SwingCell(true, whoseField);
                 } else {
-                    arrayOfSwingCells[cellCountX][cellCountY] = new SwingCell(false);
+                    arrayOfSwingCells[cellCountX][cellCountY] = new SwingCell(false, whoseField);
                 }
                 arrayOfSwingCells[cellCountX][cellCountY].setLocation(xIndent, yIndent);
                 this.add(arrayOfSwingCells[cellCountX][cellCountY]);
-                xIndent += SwingCell.CELL_HEIGHT + 5;
+                xIndent += SwingCell.CELL_HEIGHT + SwingField.BETWEEN_CELL_SPACING;
             }
-            xIndent = 10;
-            yIndent += SwingCell.CELL_HEIGHT + 5;
+            xIndent = SwingField.INDENT_OF_LABLE + X_BACK_PANE_INDENT;
+            yIndent += SwingCell.CELL_HEIGHT + SwingField.BETWEEN_CELL_SPACING;
         }
     }
 }

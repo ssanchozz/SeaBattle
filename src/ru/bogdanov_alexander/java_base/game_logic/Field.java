@@ -16,6 +16,10 @@ public class Field {
         return cellsOfField;
     }
 
+    public String getWhoseField() {
+        return whoseField;
+    }
+
     public void setCellOfField(Boat boatForCell, int[] coordinatesColRow) {
         this.cellsOfField[coordinatesColRow[0]][coordinatesColRow[1]].setBoatOfCell(boatForCell);
         this.cellsOfField[coordinatesColRow[0]][coordinatesColRow[1]].setBoatIsSet();

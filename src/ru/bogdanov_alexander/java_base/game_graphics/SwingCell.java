@@ -12,10 +12,13 @@ public class SwingCell extends JComponent implements MouseListener {
     public static final int CELL_ARC_WIDTH = 5;
     public static final int CELL_ARC_HEIGHT = 5;
 
-    private boolean isSelected = false;
+    private String fieldType;
 
-    public SwingCell(boolean selected) {
-        isSelected = selected;
+    private boolean hasBoat = false;
+
+    public SwingCell(boolean selected, String fieldType) {
+        this.fieldType = fieldType;
+        hasBoat = selected;
         setSize(CELL_WIDTH, CELL_HEIGHT);
     }
 
@@ -27,11 +30,16 @@ public class SwingCell extends JComponent implements MouseListener {
 
     public void paintGradientCell (Graphics2D g) {
         GradientPaint paint;
-        if (isSelected){
-            paint = new GradientPaint(0, 0, Color.WHITE, CELL_WIDTH, CELL_HEIGHT, Color.RED, true);
-        }  else {
-            paint = new GradientPaint(0, 0, Color.WHITE, CELL_WIDTH, CELL_HEIGHT, Color.CYAN, true);
+        if (this.fieldType.equals("player")) {
+            if (hasBoat){
+                paint = new GradientPaint(0, 0, Color.WHITE, CELL_WIDTH, CELL_HEIGHT, Color.RED, true);
+            }  else {
+                paint = new GradientPaint(0, 0, Color.WHITE, CELL_WIDTH, CELL_HEIGHT, Color.CYAN, true);
+            }
+        } else {
+            paint = new GradientPaint(0, 0, Color.WHITE, CELL_WIDTH, CELL_HEIGHT, Color.BLUE, true);
         }
+
         g.setPaint(paint);
         g.fillRoundRect(0, 0, CELL_WIDTH, CELL_HEIGHT, CELL_ARC_WIDTH, CELL_ARC_HEIGHT);
         g.setColor(Color.lightGray);
@@ -40,12 +48,12 @@ public class SwingCell extends JComponent implements MouseListener {
 
     public void mouseEntered(MouseEvent e) {
         System.out.println("mouseEntered");
-        isSelected = true;
+        hasBoat = true;
         repaint();
     }
 
     public void mouseExited(MouseEvent e) {
-        isSelected = false;
+        hasBoat = false;
         repaint();
     }
 

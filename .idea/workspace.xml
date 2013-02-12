@@ -2,13 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22b2d4d9-58c8-43eb-bb2f-ee9d7e10473f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_graphics/Gui.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_logic/Field.java" afterPath="$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_logic/Field.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_logic/SeaBattle.java" afterPath="$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_logic/SeaBattle.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_graphics/SwingCell.java" afterPath="$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_graphics/SwingCell.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_graphics/SwingField.java" afterPath="$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_graphics/SwingField.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_graphics/SwingJFrame.java" afterPath="$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_graphics/SwingJFrame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SeaBattle.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="22b2d4d9-58c8-43eb-bb2f-ee9d7e10473f" time="1360605131371" ignored="false" />
-    <file path="/SeaBattle.java" changelist="22b2d4d9-58c8-43eb-bb2f-ee9d7e10473f" time="1360610507141" ignored="false" />
-    <file path="/SwingCell.java" changelist="22b2d4d9-58c8-43eb-bb2f-ee9d7e10473f" time="1360612091109" ignored="false" />
+    <file path="/Dummy.txt" changelist="22b2d4d9-58c8-43eb-bb2f-ee9d7e10473f" time="1360697955550" ignored="false" />
+    <file path="/SeaBattle.java" changelist="22b2d4d9-58c8-43eb-bb2f-ee9d7e10473f" time="1360692589410" ignored="false" />
+    <file path="/SwingCell.java" changelist="22b2d4d9-58c8-43eb-bb2f-ee9d7e10473f" time="1360697632265" ignored="false" />
+    <file path="/Gui.java" changelist="22b2d4d9-58c8-43eb-bb2f-ee9d7e10473f" time="1360692531758" ignored="false" />
+    <file path="/SwingJFrame.java" changelist="22b2d4d9-58c8-43eb-bb2f-ee9d7e10473f" time="1360697763590" ignored="false" />
+    <file path="/SwingField.java" changelist="22b2d4d9-58c8-43eb-bb2f-ee9d7e10473f" time="1360695442295" ignored="false" />
+    <file path="/fragment.java" changelist="22b2d4d9-58c8-43eb-bb2f-ee9d7e10473f" time="1360697946374" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +68,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_logic/SeaBattle.java" line="86" class="ru.bogdanov_alexander.java_base.game_logic.SeaBattle" package="ru.bogdanov_alexander.java_base.game_logic">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
@@ -97,28 +107,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="SeaBattle.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SeaBattle.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_logic/SeaBattle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="130" column="0" selection-start="4364" selection-end="4364" vertical-scroll-proportion="0.0">
+            <state line="55" column="62" selection-start="1769" selection-end="1769" vertical-scroll-proportion="0.58064514">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SwingField.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_graphics/SwingField.java">
+      <file leaf-file-name="Gui.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_graphics/Gui.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="13" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SwingCell.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_graphics/SwingCell.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="49" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.29130965">
+            <state line="5" column="35" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,16 +128,7 @@
       <file leaf-file-name="SwingJFrame.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_graphics/SwingJFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Boat.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_logic/Boat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="944" selection-end="944" vertical-scroll-proportion="0.0">
+            <state line="54" column="61" selection-start="2019" selection-end="2019" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -145,7 +137,25 @@
       <file leaf-file-name="Field.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_logic/Field.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
+            <state line="18" column="35" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SwingField.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_graphics/SwingField.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="19" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SwingCell.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_graphics/SwingCell.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="69" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -169,8 +179,12 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_logic/SeaBattle.java" />
+        <option value="$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_graphics/SwingField.java" />
+        <option value="$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_logic/Field.java" />
         <option value="$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_graphics/SwingCell.java" />
+        <option value="$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_graphics/SwingJFrame.java" />
+        <option value="$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_graphics/Gui.java" />
+        <option value="$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_logic/SeaBattle.java" />
       </list>
     </option>
   </component>
@@ -444,12 +458,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1000" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39976275" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -464,7 +479,6 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32858837" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -529,9 +543,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_logic/SeaBattle.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_logic/Boat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="67" selection-start="819" selection-end="819" vertical-scroll-proportion="0.0">
+        <state line="29" column="0" selection-start="944" selection-end="944" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -543,23 +557,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_logic/Boat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="944" selection-end="944" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_logic/SeaBattle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="130" column="0" selection-start="4364" selection-end="4364" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_graphics/SwingJFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -573,7 +573,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_graphics/SwingCell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="49" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.29130965">
+        <state line="33" column="49" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_graphics/SwingJFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_logic/Boat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="944" selection-end="944" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_logic/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_logic/SeaBattle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="67" selection-start="819" selection-end="819" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_logic/Boat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="944" selection-end="944" vertical-scroll-proportion="0.6034272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_logic/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="35" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_graphics/SwingField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="19" selection-start="622" selection-end="622" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_graphics/SwingCell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="69" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_graphics/SwingJFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="61" selection-start="2019" selection-end="2019" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_graphics/Gui.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="35" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/bogdanov_alexander/java_base/game_logic/SeaBattle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="62" selection-start="1769" selection-end="1769" vertical-scroll-proportion="0.58064514">
           <folding />
         </state>
       </provider>

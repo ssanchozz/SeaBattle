@@ -53,7 +53,7 @@ public class SeaBattle {
         placeBoats(computerField, enemyBoat);
         drawFieldInConsole(computerField);
 
-        SwingJFrame sM = new SwingJFrame(myField);
+        Gui seaBattleGui = new Gui(myField, computerField);
         // --------------------------------------------------------------------------
 
         // Who win?
