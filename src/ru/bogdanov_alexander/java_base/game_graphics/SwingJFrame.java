@@ -34,9 +34,6 @@ public class SwingJFrame extends JFrame {
                 System.out.print("This is restart");
             }
         });
-
-        this.setVisible(true);
-
         menuBar.add(aboutMenu);
         menuBar.add(restartMenu);
         menuBar.add(exitMenu);
@@ -63,11 +60,12 @@ public class SwingJFrame extends JFrame {
         SwingField enemyField = new SwingField();
         enemyField.setLocation(SwingField.FIELD_WIDTH + X_BACK_PANE_INDENT + BETWEEN_FIELDS_SPACING, Y_BACK_PANE_INDENT);
         this.add(enemyField);
-
+        this.setVisible(true);
     }
+
     public void generateFieldOfCells(SwingCell[][] arrayOfSwingCells, Field field, int xIndent, int yIndent) {
         String whoseField;
-
+        int xPosition = xIndent;
         for (int cellCountY = 0; cellCountY < Field.MAP_HEIGHT; cellCountY++) {
             for (int cellCountX = 0; cellCountX < Field.MAP_WIDTH; cellCountX++) {
                 if (field.getWhoseField().equals("player"))
@@ -83,7 +81,7 @@ public class SwingJFrame extends JFrame {
                 this.add(arrayOfSwingCells[cellCountX][cellCountY]);
                 xIndent += SwingCell.CELL_HEIGHT + SwingField.BETWEEN_CELL_SPACING;
             }
-            xIndent = SwingField.INDENT_OF_LABLE + X_BACK_PANE_INDENT;
+            xIndent = xPosition;
             yIndent += SwingCell.CELL_HEIGHT + SwingField.BETWEEN_CELL_SPACING;
         }
     }
